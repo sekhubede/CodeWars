@@ -8,13 +8,10 @@ namespace CodeWars.Challenges
 {
     public static partial class Challenge
     {
-        public static int Stray(int[] numbers)
-        {
-            // If the first element is the same as the second, return the number that differs
-            return numbers[0] == numbers[1] ?
-                numbers.First(n => n != numbers[0]) :
-                numbers[0] == numbers[2] ? numbers[1] : numbers[0];
-        }
+        // If the first element is the same as the second, return the number that differs
+        public static int Stray(int[] numbers) =>  numbers[0] == numbers[1] ?
+                                                   numbers.First(n => n != numbers[0]) :
+                                                   numbers[0] == numbers[2] ? numbers[1] : numbers[0];
 
         public static int StrayEx(int[] numbers)
         {
