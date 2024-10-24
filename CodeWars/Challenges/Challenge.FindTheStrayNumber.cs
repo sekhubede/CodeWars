@@ -15,5 +15,11 @@ namespace CodeWars.Challenges
                 numbers.First(n => n != numbers[0]) :
                 numbers[0] == numbers[2] ? numbers[1] : numbers[0];
         }
+
+        public static int StrayEx(int[] numbers)
+        {
+            Array.Sort(numbers);
+            return numbers[0] == numbers[1] ? numbers.Last() : numbers.First();
+        }
     }
 }
