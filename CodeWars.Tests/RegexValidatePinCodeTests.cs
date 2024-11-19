@@ -23,7 +23,7 @@ namespace CodeWars.Tests
         [InlineData("0000", true)]
         [InlineData("1234", true)]
         [InlineData("1234 ", false)]
-        public void ValidatePin_ReturnsExactlyFourOrFiveDigits(string pin, bool expected)
+        public void ValidatePin_ReturnsTrueIfExactlyFourOrFiveDigits(string pin, bool expected)
         {
             // Arrange
 
