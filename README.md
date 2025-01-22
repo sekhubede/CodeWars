@@ -1,3 +1,4 @@
+
 # CodeWars Challenges
 
 Welcome to my **CodeWars Challenges** repository! 🚀
@@ -8,8 +9,22 @@ This repo contains solutions to various coding challenges and katas that I've so
 
 Each challenge solution is structured in its own folder, with accompanying test cases where applicable. Below is a typical structure for a challenge:
 
-├── ChallengeName │ ├── ChallengeName.cs // Solution to the challenge │ └── ChallengeNameTests.cs // Unit tests for the solution
-
+```
+├── challenges/                  # Folder containing all the challenges
+│   ├── bus-people-challenge/    # Folder for a specific challenge
+│   │   ├── solution.cs          # Solution to the challenge
+│   │   └── README.md            # Description of the challenge and solution
+│   └── another-challenge/       # Another challenge folder
+│       ├── solution.cs
+│       └── README.md
+│
+├── tests/                       # Folder for tests
+│   ├── BusPeopleTests.cs        # Test class for bus-people-challenge
+│   └── AnotherChallengeTests.cs # Test class for another challenge
+│
+├── README.md                    # Main readme file for the project overview
+└── .gitignore                   # Git ignore file
+```
 
 ## Languages and Tools
 
@@ -18,6 +33,7 @@ Most of the challenges are solved using **C#**, leveraging:
 - **.NET Core**
 - **LINQ** for clean and efficient data manipulation
 - **XUnit** for unit testing the solutions
+- **FluentAssertions** for expressive and readable assertions in the tests
 
 ## Why This Repo?
 
@@ -54,7 +70,7 @@ Contributions, suggestions, or improvements are always welcome! Feel free to for
 
 - **CodeWars Profile**: [My CodeWars Profile](https://www.codewars.com/users/sekhubede)
 - **GitHub**: [My GitHub](https://github.com/sekhubede)
-  
+
 ---
 
 ### Happy Coding! 😎
