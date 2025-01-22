@@ -1,9 +1,4 @@
-﻿using CodeWars.Challenges;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CodeWars.Challenges.BreakCamelCaseChallenge;
 
 namespace CodeWars.Tests
 {
@@ -19,7 +14,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            string actual = Challenge.BreakCamelCase(inputString);
+            string actual = BreakCamelCase.Solution(inputString);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -35,7 +30,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            string actual = Challenge.BreakCamelCaseLinq(inputString);
+            string actual = BreakCamelCase.Solution2(inputString);
 
             // Assert
             Assert.Equal(expected, actual);

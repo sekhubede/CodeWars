@@ -1,11 +1,11 @@
 ﻿using System.Text;
 using System.Linq;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.BreakCamelCaseChallenge
 {
-    public static partial class Challenge
+    public class BreakCamelCase
     {
-        public static string BreakCamelCase(string str)
+        public static string Solution(string str)
         {
             StringBuilder result = new StringBuilder();
 
@@ -25,7 +25,7 @@ namespace CodeWars.Challenges
             return result.ToString();
         }
 
-        public static string BreakCamelCaseLinq(string str)
+        public static string Solution2(string str)
         {
             return string.Concat(str.Select(c => Char.IsUpper(c) ? " " + c : c.ToString()));
         }

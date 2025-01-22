@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.ClassicHelloWorldChallenge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace CodeWars.Tests
             Console.SetOut(output);
 
             // Act: Call the method
-            Challenge.ClassicHelloWorld(inputString);
+            ClassicHelloWorld.Solution(inputString);
 
             // Assert
             Assert.Equal(expected, output.ToString());
