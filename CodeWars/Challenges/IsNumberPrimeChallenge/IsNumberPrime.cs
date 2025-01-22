@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.IsNumberPrimeChallenge
 {
-    public static partial class Challenge
+    public class IsNumberPrime
     {
-        public static bool IsPrime(int n)
+        public static bool Solution(int n)
         {
             // Edge case: numbers <= 1 are not prime
             if (n <= 1) return false;

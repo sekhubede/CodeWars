@@ -1,4 +1,5 @@
 using CodeWars.Challenges;
+using CodeWars.Challenges.HelloWorldChallenge;
 
 namespace CodeWars.Tests
 {
@@ -10,7 +11,7 @@ namespace CodeWars.Tests
             // Arrange
             const string expected = "hello world!";
             // Act
-            var actual = Challenge.Greet();
+            var actual = HelloWorld.Solution();
 
             // Assert
             Assert.Equal(expected, actual);

@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.ComplementaryDNAChallenge;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            var actual = Challenge.MakeComplement(dna);
+            var actual = ComplementaryDNA.Solution(dna);
 
             // Assert
             actual.Should().Be(expected);
@@ -40,7 +41,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            var actual = Challenge.MakeComplement_Linq(dna);
+            var actual = ComplementaryDNA.Solution2(dna);
 
             // Assert
             actual.Should().Be(expected);

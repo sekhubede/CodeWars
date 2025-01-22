@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.ComplementaryDNAChallenge
 {
-    public static partial class Challenge
+    public class ComplementaryDNA
     {
-        public static string MakeComplement(string dna)
+        public static string Solution(string dna)
         {
             var sb = new StringBuilder();
 
@@ -36,7 +36,7 @@ namespace CodeWars.Challenges
             return sb.ToString();
         }
 
-        public static string MakeComplement_Linq(string dna)=> new string(dna.Select(c => c switch
+        public static string Solution2(string dna)=> new string(dna.Select(c => c switch
             {
                 'A' => 'T',
                 'T' => 'A',

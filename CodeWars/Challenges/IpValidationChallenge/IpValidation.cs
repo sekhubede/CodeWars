@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using System.Reflection.Metadata.Ecma335;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.IpValidationChallenge
 {
-    public static partial class Challenge
+    public class IpValidation
     {
-        public static bool IsValidIp(string ipAddres)
+        public static bool Solution(string ipAddres)
         {
             // Check if there are any spaces anywhere inside the IP address
             if (ipAddres.Contains(' '))
@@ -38,7 +38,7 @@ namespace CodeWars.Challenges
         }
 
 
-        public static bool IsValidIPv4Regex(string ip)
+        public static bool Solution2(string ip)
         {
             string pattern = @"^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$";
             return Regex.IsMatch(ip, pattern);

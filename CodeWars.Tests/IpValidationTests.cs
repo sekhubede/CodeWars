@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.IpValidationChallenge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            bool actual = Challenge.IsValidIp(ipAddress);
+            bool actual = IpValidation.Solution(ipAddress);
 
             // Assert
             Assert.Equal(expected, actual);

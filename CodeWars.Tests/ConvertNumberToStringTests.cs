@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CodeWars.Challenges;
+using CodeWars.Challenges.ConvertNumberToStringChallenge;
 using FluentAssertions;
 
 namespace CodeWars.Tests
@@ -18,7 +19,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            string actual = Challenge.NumberToString(num);
+            string actual = ConvertNumberToString.Solution(num);
 
             // Assert
             actual.Should().Be(expected);

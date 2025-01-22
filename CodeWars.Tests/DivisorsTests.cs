@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.DivisorsChallenge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CodeWars.Tests
 {
-    public class FindTheDivisorsTests
+    public class DivisorsTests
     {
         [Theory]
         [InlineData(15, new int[] { 3, 5 })]
@@ -20,7 +21,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            int[] actual = Challenge.Divisors(number);
+            int[] actual = Divisors.Solution(number);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -37,7 +38,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            int[] actual = Challenge.DivisorsEx(number);
+            int[] actual = Divisors.Solution2(number);
 
             // Assert
             Assert.Equal(expected, actual);

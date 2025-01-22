@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.DescendingOrderChallenge;
 
 namespace CodeWars.Tests
 {
@@ -14,7 +15,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            int actual = Challenge.DescendingOrder(number);
+            int actual = DescendingOrder.Solution(number);
 
             //Assert
             Assert.Equal(expected, actual);

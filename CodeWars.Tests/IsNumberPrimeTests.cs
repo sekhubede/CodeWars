@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.IsNumberPrimeChallenge;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +21,7 @@ namespace CodeWars.Tests
 
 
             // Act
-            bool actual = Challenge.IsPrime(number);
+            bool actual = IsNumberPrime.Solution(number);
 
 
             // Assert

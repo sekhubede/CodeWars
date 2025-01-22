@@ -5,11 +5,11 @@ using System.Net.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.CountCharactersInYourStringChallenge
 {
-    public static partial class Challenge
+    public class CountCharactersInYourString
     {
-        public static Dictionary<char, int> GetCharacterCount(string str)
+        public static Dictionary<char, int> Solution(string str)
         {
             if (string.IsNullOrEmpty(str))
             {
@@ -32,7 +32,7 @@ namespace CodeWars.Challenges
             return characterCount;
         }
 
-        public static Dictionary<char, int> GetCharacterCountEx(string str)
+        public static Dictionary<char, int> Solutions2(string str)
         {
             var characterCount = new Dictionary<char, int>();
 

@@ -1,8 +1,8 @@
-﻿namespace CodeWars.Challenges
+﻿namespace CodeWars.Challenges.FizzBuzzChallenge
 {
-    public static partial class Challenge
+    public static class FizzBuzz
     {
-        public static string Play(int number) =>
+        public static string Solution(int number) =>
        number switch
        {
            _ when number.IsDivisibleBy(15)

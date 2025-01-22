@@ -1,8 +1,8 @@
-﻿namespace CodeWars.Challenges
+﻿namespace CodeWars.Challenges.DivisorsChallenge
 {
-    public static partial class Challenge
+    public class Divisors
     {
-        public static int[] Divisors(int n)
+        public static int[] Solution(int n)
         {
             var divisors = new List<int>();
 
@@ -18,7 +18,7 @@
             return divisors.Count > 0 ? divisors.ToArray() : null;
         }
 
-        public static int[] DivisorsEx(int n)
+        public static int[] Solution2(int n)
         {
             var divisors = Enumerable.Range(2, n - 2).Where(x => n % x == 0).ToArray();
             return divisors.Length == 0 ? null : divisors;

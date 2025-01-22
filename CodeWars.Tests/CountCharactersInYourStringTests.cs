@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.CountCharactersInYourStringChallenge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace CodeWars.Tests
             // Arrange (Given)
 
             // Act (When)
-            var actual = Challenge.GetCharacterCount(input);
+            var actual = CountCharactersInYourString.Solution(input);
 
             // Assert (Then)
             Assert.Equal(expected, actual.Count);

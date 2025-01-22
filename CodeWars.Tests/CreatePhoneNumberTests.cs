@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.CreatePhoneNumberChallenge;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace CodeWars.Tests
             // Arrange 
 
             // Act
-            string actual = Challenge.CreatePhoneNumber(numbers);
+            string actual = CreatePhoneNumber.Solution(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -32,7 +33,7 @@ namespace CodeWars.Tests
             // Arrange 
 
             // Act
-            string actual = Challenge.CreatePhoneNumberLinq(numbers);
+            string actual = CreatePhoneNumber.Solution2(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -46,7 +47,7 @@ namespace CodeWars.Tests
             // Arrange 
 
             // Act
-            string actual = Challenge.CreatePhoneNumber(numbers);
+            string actual = CreatePhoneNumber.Solution3(numbers);
 
             // Assert
             Assert.Equal(expected, actual);

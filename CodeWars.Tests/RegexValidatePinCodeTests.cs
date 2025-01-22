@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.RegexValidatePinCodeChallenge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            bool actual = Challenge.ValidatePin(pin);
+            bool actual = RegexValidatePinCode.Solution(pin);
 
             // Assert
             Assert.Equal(expected, actual);

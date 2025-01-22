@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.ConvertNumberToStringChallenge
 {
-    public partial class Challenge
+    public class ConvertNumberToString
     {
-        public static string NumberToString(int num)
+        public static string Solution(int num)
         {
             return num.ToString();
         }

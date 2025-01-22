@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.ReversedStringChallenge;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            string actual = Challenge.ReversedStrings(str);
+            string actual = ReversedString.Solution(str);
 
             // Assert
             actual.Should().Be(expected);

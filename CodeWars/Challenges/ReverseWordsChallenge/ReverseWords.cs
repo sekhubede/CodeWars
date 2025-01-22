@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeWars.Challenges
+namespace CodeWars.Challenges.ReverseWordsChallenge
 {
-    public partial class Challenge
+    public class ReverseWords
     {
-        public static string ReverseWords(string str)
+        public static string Solution(string str)
         {
             var newString = str.Split(' ');
 
@@ -26,7 +26,7 @@ namespace CodeWars.Challenges
             return sb.ToString().TrimEnd();
         }
 
-        public static string ReverseWords_Linq(string str) => 
+        public static string Solution2(string str) => 
             string.Join(" ", str.Split(' ')
                 .Select(word => new string(word.Reverse().ToArray())));
     }

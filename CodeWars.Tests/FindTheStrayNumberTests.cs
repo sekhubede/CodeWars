@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.FindTheStrayNumberChallenge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            int actual = Challenge.Stray(numbers);
+            int actual = FindTheStrayNumber.Solution(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -31,7 +32,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            int actual = Challenge.StrayEx(numbers);
+            int actual = FindTheStrayNumber.Solution2(numbers);
 
             // Assert
             Assert.Equal(expected, actual);

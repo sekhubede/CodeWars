@@ -1,8 +1,8 @@
-﻿namespace CodeWars.Challenges
+﻿namespace CodeWars.Challenges.DescendingOrderChallenge
 {
-    public static partial class Challenge
+    public class DescendingOrder
     {
-        public static int DescendingOrder(int num)
+        public static int Solution(int num)
         {
             char[] digits = num.ToString().ToCharArray();
 
@@ -14,7 +14,7 @@
             return int.Parse(sortedNumStr);
         }
 
-        public static int DescendingOrderLinq(int num)
+        public static int Solution2(int num)
         {
             return int.Parse(string.Concat(num.ToString().OrderByDescending(x => x)));
         }

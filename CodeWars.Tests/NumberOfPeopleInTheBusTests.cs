@@ -1,4 +1,5 @@
 ﻿using CodeWars.Challenges;
+using CodeWars.Challenges.NumberOfPeopleInTheBusChallenge;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace CodeWars.Tests
             // Arrange
 
             // Act
-            var actual = Challenge.Number(peopleListInOut);
+            var actual = NumberOfPeopleInTheBus.Solution(peopleListInOut);
 
             // Assert
             actual.Should().Be(expected);
