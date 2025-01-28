@@ -16,3 +16,4 @@ global using CodeWars.Challenges.NumberOfPeopleInTheBusChallenge;
 global using CodeWars.Challenges.RegexValidatePinCodeChallenge;
 global using CodeWars.Challenges.ReversedStringChallenge;
 global using CodeWars.Challenges.ReverseWordsChallenge;
+global using CodeWars.Challenges.IsogramsChallenge;

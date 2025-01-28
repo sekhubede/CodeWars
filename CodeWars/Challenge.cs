@@ -7,7 +7,7 @@
             return BreakCamelCase.Solution("camelCasing");
         }
 
-        public static void RunClassicHelloWorld() 
+        public static void RunClassicHelloWorld()
         {
             ClassicHelloWorld.Solution(new string[] { "Greetings from Javatlacati" });
         }
@@ -85,6 +85,11 @@
         public static string RunReverseWords()
         {
             return ReverseWords.Solution("This is an example!");
+        }
+
+        public static bool RunIsogram()
+        {
+            return Isogram.Solution("Dermatoglyphics");
         }
     }
 }

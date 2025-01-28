@@ -33,3 +33,5 @@ Challenge.RunRegexValidatePinCode();
 Challenge.RunReversedString();
 
 Challenge.RunReverseWords();
+
+Challenge.RunIsogram();
