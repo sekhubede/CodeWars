@@ -9,7 +9,7 @@ namespace CodeWars.Challenges.ReturnNegativeChallenge
     {
         public static int Solution(int number)
         {
-            throw new NotImplementedException();
+            return number < 0 ? number : -number;
         }
     }
 }
