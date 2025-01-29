@@ -7,9 +7,6 @@ namespace CodeWars.Challenges.ReturnNegativeChallenge
 {
     public class ReturnNegative
     {
-        public static int Solution(int number)
-        {
-            return number < 0 ? number : -number;
-        }
+        public static int Solution(int number) => number < 0 ? number : -number;
     }
 }
