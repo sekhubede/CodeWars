@@ -1,0 +1,10 @@
+using System.Linq;
+​
+public class Kata
+{
+    public static bool BetterThanAverage(int[] ClassPoints, int YourPoints)
+    {
+        double average = (double)ClassPoints.Sum() / ClassPoints.Length;
+        return YourPoints > average;
+    }
+}
