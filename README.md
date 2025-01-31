@@ -1,76 +1,44 @@
-
 # CodeWars Challenges
 
-Welcome to my **CodeWars Challenges** repository! 🚀
+![CodeWars Badge](https://www.codewars.com/users/sekhubede/badges/small)
+
+Welcome to my **CodeWars Challenges** repository! 🚀  
 
 This repo contains solutions to various coding challenges and katas that I've solved on [CodeWars](https://www.codewars.com/). The purpose of this repository is to document my problem-solving journey, sharpen my programming skills, and showcase my progress as I work through increasingly difficult challenges.
 
-## Structure
+## Challenge Organization  
 
-Each challenge solution is structured in its own folder, with accompanying test cases where applicable. Below is a typical structure for a challenge:
+I use the **CodeHub** Chrome extension to automatically push my CodeWars solutions to this repository. This allows me to focus purely on problem-solving without worrying about manual updates.  
 
-```
-├── challenges/                  # Folder containing all the challenges
-│   ├── bus-people-challenge/    # Folder for a specific challenge
-│   │   ├── solution.cs          # Solution to the challenge
-│   │   └── README.md            # Description of the challenge and solution
-│   └── another-challenge/       # Another challenge folder
-│       ├── solution.cs
-│       └── README.md
-│
-├── tests/                       # Folder for tests
-│   ├── BusPeopleTests.cs        # Test class for bus-people-challenge
-│   └── AnotherChallengeTests.cs # Test class for another challenge
-│
-├── README.md                    # Main readme file for the project overview
-└── .gitignore                   # Git ignore file
-```
+Each challenge is categorized by **difficulty level** (e.g., `8-kyu`, `7-kyu`, etc.), and every challenge folder includes:  
+- `README.md` → Challenge description and solution.
 
-## Languages and Tools
+If you're interested in automating your CodeWars submissions, check out **[CodeHub on GitHub](https://github.com/febinbellamy/CodeHub)**.  
 
-Most of the challenges are solved using **C#**, leveraging:
+## Why This Repo?  
 
-- **.NET Core**
-- **LINQ** for clean and efficient data manipulation
-- **XUnit** for unit testing the solutions
-- **FluentAssertions** for expressive and readable assertions in the tests
+The goal of this repository is to:  
+- **Document my learning process** and improvement over time.  
+- **Automate submissions** so I can focus on problem-solving.  
+- **Share solutions** to common programming challenges.  
+- **Encourage others** to engage in coding challenges to enhance problem-solving skills.  
 
-## Why This Repo?
+## Running the Solutions Locally  
 
-The goal of this repository is to:
+If you'd like to run these solutions locally, follow these steps:  
 
-- **Document my learning process** and improvement over time
-- **Share solutions** to common programming challenges
-- **Collaborate** with others to review and improve solutions
-- **Encourage others** to engage in coding challenges to enhance problem-solving skills
-
-## Running the Solutions Locally
-
-If you'd like to run these solutions locally, follow these steps:
-
-1. Clone the repository:
+1. Clone the repository:  
     ```bash
     git clone https://github.com/your-username/codewars-challenges.git
-    ```
+    ```  
+2. Open the solution in **Visual Studio**, **VS Code**, or your preferred C# editor.  
+3. Navigate to the specific challenge folder and modify/test the solution as needed.  
 
-2. Open the solution in an IDE like **Visual Studio** or **VS Code**.
+## Let's Connect  
 
-3. Navigate to the specific challenge folder and run the unit tests:
-    ```bash
-    dotnet test
-    ```
+- **CodeWars Profile**: [My CodeWars Profile](https://www.codewars.com/users/sekhubede)  
+- **GitHub**: [My GitHub](https://github.com/sekhubede)  
 
-4. Feel free to explore the challenges and experiment with your own solutions!
+---  
 
-## Contributing
-
-Contributions, suggestions, or improvements are always welcome! Feel free to fork this repository and submit a pull request. Whether it's a new challenge, a code improvement, or a new set of test cases, your help is appreciated.
-
-## Let's Connect
-
-- **CodeWars Profile**: [My CodeWars Profile](https://www.codewars.com/users/sekhubede)
-- **GitHub**: [My GitHub](https://github.com/sekhubede)
-
----
-
-### Happy Coding! 😎
+### Happy Coding! 😎  
