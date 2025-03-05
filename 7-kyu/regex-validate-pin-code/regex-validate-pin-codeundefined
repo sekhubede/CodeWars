@@ -1,0 +1,16 @@
+using System;
+using System.Text.RegularExpressions;
+​
+public class Kata
+{
+  public static bool ValidatePin(string pin)
+  {
+    if (string.IsNullOrEmpty(pin))
+    {
+      return false;
+    }
+    
+    string pattern = @"\A\d{4}\z|\A\d{6}\z";
+    return Regex.IsMatch(pin, pattern);
+  }
+}
